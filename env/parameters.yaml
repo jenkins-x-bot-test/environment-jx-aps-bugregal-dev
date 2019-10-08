@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-bugregal/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-bugregal:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-bugregal:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:jx-aps-bugregal/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:jx-aps-bugregal/prow:hmacToken
